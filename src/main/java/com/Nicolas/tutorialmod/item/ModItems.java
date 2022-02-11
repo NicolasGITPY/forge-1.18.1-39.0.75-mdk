@@ -14,10 +14,10 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, tutorialmod.MOD_ID);
 
     public static final RegistryObject<Item> CITRINE = ITEMS.register("citrine", ()
-    -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
 
     public static final RegistryObject<Item> RAW_CITRINE = ITEMS.register("raw_citrine", ()
-            -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
 
 
     public static void register(IEventBus eventBus){

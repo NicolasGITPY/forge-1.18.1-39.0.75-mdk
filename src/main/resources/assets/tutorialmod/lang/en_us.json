@@ -4,5 +4,7 @@
 
   "block.tutorialmod.citrine_block": "Citrine block",
   "block.tutorialmod.raw_citrine_block": "Raw citrine",
-  "block.tutorialmod.citrine_ore": "Citrine ore"
+  "block.tutorialmod.citrine_ore": "Citrine ore",
+
+  "itemGroup.tutorialtab": "Tutorial Mod"
 }

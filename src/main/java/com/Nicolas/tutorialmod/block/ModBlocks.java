@@ -1,5 +1,6 @@
 package com.Nicolas.tutorialmod.block;
 
+import com.Nicolas.tutorialmod.item.ModCreativeModeTab;
 import com.Nicolas.tutorialmod.item.ModItems;
 import com.Nicolas.tutorialmod.tutorialmod;
 import net.minecraft.world.item.BlockItem;
@@ -22,15 +23,15 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> CITRINE_BLOCK = registerBlock("citrine_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()),
-                    CreativeModeTab.TAB_MISC);
+                    ModCreativeModeTab.TUTORIAL_TAB);
 
     public static final RegistryObject<Block> RAW_CITRINE_BLOCK = registerBlock("raw_citrine_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(7f).requiresCorrectToolForDrops()),
-            CreativeModeTab.TAB_MISC);
+            ModCreativeModeTab.TUTORIAL_TAB);
 
     public static final RegistryObject<Block> CITRINE_ORE = registerBlock("citrine_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f).requiresCorrectToolForDrops()),
-            CreativeModeTab.TAB_MISC);
+            ModCreativeModeTab.TUTORIAL_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,
                                                                            CreativeModeTab tab){
