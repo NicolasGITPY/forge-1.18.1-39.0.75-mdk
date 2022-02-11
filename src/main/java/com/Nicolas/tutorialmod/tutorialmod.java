@@ -1,5 +1,6 @@
 package com.Nicolas.tutorialmod;
 
+import com.Nicolas.tutorialmod.block.ModBlocks;
 import com.Nicolas.tutorialmod.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -23,6 +24,7 @@ public class tutorialmod {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
         eventBus.addListener(this::setup);
 
 
