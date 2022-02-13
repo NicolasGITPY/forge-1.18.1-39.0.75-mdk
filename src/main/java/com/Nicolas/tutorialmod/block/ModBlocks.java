@@ -33,6 +33,20 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f).requiresCorrectToolForDrops()),
             ModCreativeModeTab.TUTORIAL_TAB);
 
+    public static final RegistryObject<Block> DEEPSLATE_CITRINE_ORE = registerBlock("deepslate_citrine_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.TUTORIAL_TAB);
+
+    public static final RegistryObject<Block> ENDSTONE_CITRINE_ORE = registerBlock("endstone_citrine_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.TUTORIAL_TAB);
+
+    public static final RegistryObject<Block> NETHERRACK_CITRINE_ORE = registerBlock("netherrack_citrine_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.TUTORIAL_TAB);
+
+
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,
                                                                            CreativeModeTab tab){
          RegistryObject<T> toReturn = BLOCKS.register(name, block);
