@@ -1,5 +1,6 @@
 package com.Nicolas.tutorialmod.item.custom;
 
+import com.Nicolas.tutorialmod.util.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TextComponent;
@@ -62,8 +63,7 @@ public class DowsingRodItem extends Item {
     }
 
     private boolean isValuableBlock(Block block) {
-        return block == Blocks.COAL_ORE || block == Blocks.COPPER_ORE
-                || block == Blocks.DIAMOND_ORE || block == Blocks.IRON_ORE;
+        return ModTags.Blocks.DOWSING_ROD_VALUABLES.contains(block);
     }
 
 

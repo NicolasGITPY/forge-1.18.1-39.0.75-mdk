@@ -19,5 +19,11 @@
 
   "item.tutorialmod.dowsing_rod.no_valuables": "No valuables found!",
   "tooltip.tutorialmod.block.speedy_block": "I am speed!",
-  "tooltip.tutorialmod.dowsing_rod.tooltip": "§4Find valuables!"
+  "tooltip.tutorialmod.dowsing_rod.tooltip": "§4Find valuables!",
+
+  "block.tutorialmod.citrine_slab": "Citrine Slab",
+  "block.tutorialmod.citrine_stairs": "Citrine Stairs",
+  "block.tutorialmod.citrine_fence": "Citrine Fence",
+  "block.tutorialmod.citrine_wall": "Citrine Wall",
+  "block.tutorialmod.citrine_fence_gate": "Citrine Fence Gate"
 }
